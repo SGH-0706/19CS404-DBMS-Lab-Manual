@@ -34,7 +34,7 @@ FlexiFit Gym wants a database to manage its members, trainers, and fitness progr
 | Trainers	              |TrainerID (PK), Name, Phone, Specialization, Experience	        |Trainers working in the gym                  | 
 | PersonalTrainingSession	|SessionID (PK), MemberID (FK), TrainerID (FK), Date, Time	      |Personal training session booked by members  | 
 | Attendance	            |ID (PK), MemberID (FK), ProgramID (FK), Date, Status	            |Tracks which member attended which program   |
-| Payment	                |ID (PK), MemberID (FK), Amount, Date, Mode	                      |Payment records of members                   |
+| Payment	                |ID (PK), MemberID (FK), Amount, Date, Mode	                      |Payment record of members                   |
 
 ### Relationships and Constraints
 
